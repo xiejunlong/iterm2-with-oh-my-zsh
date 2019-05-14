@@ -229,4 +229,46 @@ Preferences -> Profiles -> Colors 中有Foreground是标准字体颜色，ANSI C
 ![ImageInitIterm](https://upload-images.jianshu.io/upload_images/6780798-6082151f7dc85050.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp)
 
 
+#### iTerm2 快速隐藏和显示
+这个功能也非常使用，就是通过快捷键，可以快速的隐藏和打开iTerm2,示例配置(Commond + .):
+![ImageInitIterm](https://upload-images.jianshu.io/upload_images/6780798-eafc19258f733275.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp)
+
+
+#### iTerm2 隐藏用户名和主机名
+有时候我们的用户名和主机名太长，比如我的xishuai@xishuaideMacBook-Pro，终端显示的时候会很不好看（上面图片中可以看到），我们可以手动去除。
+
+编辑vim ~/.zshrc文件，增加DEFAULT_USER="xishuai"配置，示例：
+![ImageInitIterm](https://upload-images.jianshu.io/upload_images/6780798-e1b9c5b2a8bd3f2e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/982/format/webp)
+
+我们可以通过whoami命令，查看当前用户，效果（另外分屏的效果）：
+
+![ImageInitIterm](https://upload-images.jianshu.io/upload_images/6780798-63e18826ff74f888.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp)
+
+#### iTerm2快捷命令
+快捷命令说明：[这里](https://cnbin.github.io/blog/2015/06/20/iterm2-kuai-jie-jian-da-quan/ "悬停显示")有详细的：
+```markdown
+command + t 新建标签
+command + w 关闭标签
+command + 数字 command + 左右方向键    切换标签
+command + enter 切换全屏
+command + f 查找
+command + d 垂直分屏
+command + shift + d 水平分屏
+command + option + 方向键 command + [ 或 command + ]    切换屏幕
+command + ; 查看历史命令
+command + shift + h 查看剪贴板历史
+ctrl + u    清除当前行
+ctrl + l    清屏
+ctrl + a    到行首
+ctrl + e    到行尾
+ctrl + f/b  前进后退
+ctrl + p    上一条命令
+ctrl + r    搜索命令历史
+```
+
+
+
+
+
+
 
