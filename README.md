@@ -220,3 +220,13 @@ vi ~/.zshrc
 有同学说补全命令的字体不太清晰，与背景颜色太过相近，其实可以自己调整一下字体颜色。
 
 Preferences -> Profiles -> Colors 中有Foreground是标准字体颜色，ANSI Colors中Bright的第一个是补全的字体颜色。
+
+
+----
+
+#### 高亮当前鼠标的位置
+一个标签页中开的窗口太多，有时候会找不到当前的鼠标，⌘+/找到它。
+![ImageInitIterm](https://upload-images.jianshu.io/upload_images/6780798-6082151f7dc85050.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp)
+
+
+
