@@ -267,8 +267,10 @@ ctrl + r    搜索命令历史
 ```
 
 
-
-
+----
+----
+参考链接：
+感谢[GuoTuo](https://github.com/sirius1024/iterm2-with-oh-my-zsh),[杂货铺学徒](https://www.jianshu.com/p/53cd3cdf2679?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)
 
 
 
